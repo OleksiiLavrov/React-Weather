@@ -1,0 +1,39 @@
+@import '../../styles/varialbles.scss';   
+
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   margin: 0 0 30px;
+}
+
+.wrapper {
+   display: flex;
+   align-items: center;
+}
+
+.logo, 
+.themeLogo {
+   margin-right: 20px;
+   cursor: pointer;
+}
+
+.logo {
+   svg {
+       width: 65px;
+       height: 65px;
+   }
+}
+
+
+.title {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 1.5em;
+   color: $primary-color;
+}
+
+.select {
+   z-index: 101;
+}
